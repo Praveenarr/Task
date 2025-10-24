@@ -63,7 +63,9 @@ export default function SegmentPopup({ onClose }) {
         headers: { "Content-Type": "application/json" },
       });
 
-      alert("Segment saved! Check webhook.site for payload.");
+      alert(
+        "Segment saved! Check webhook.site-https://webhook.site/e0a66c36-7e98-4155-9106-6736e76da698- for payload."
+      );
       onClose();
     } catch (err) {
       console.error(err);
